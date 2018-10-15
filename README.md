@@ -1,4 +1,4 @@
-# SpGCOOSpDM
+# GCOOSpDM
 Efficient sparse-dense matrix-matrix multiplication on GPUs using the customized sparse storage format
 
 ## Quick Install
