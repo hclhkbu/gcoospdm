@@ -11,6 +11,10 @@
 *.i
 *.ii
 *.cudafe*
+*.cubin
+*.module_id
+*.fatbin*
+*.ptx
 
 # Precompiled Headers
 *.gch
