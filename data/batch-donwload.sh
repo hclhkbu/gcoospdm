@@ -1,0 +1,23 @@
+./download-data.sh https://sparse.tamu.edu/MM/HB/494_bus.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/HB/685_bus.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/HB/bcspwr06.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/HB/1138_bus.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/yeast/yeast.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/VDOL/tumorAntiAngiogenesis_8.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/VDOL/spaceShuttleEntry_4.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/DIMACS10/delaunay_n13.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/Gset/G56.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/ND/nd3k.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/Williams/pdb1HYS.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/HB/bcsstk17.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/Boeing/crystk02.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/Boeing/msc10848.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/Bomhof/circuit_3.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/HB/bcsstk25.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/FIDAP/ex11.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/Gupta/gupta3.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/Nemeth/nemeth22.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/Nemeth/nemeth23.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/GHS_indef/exdata_1.tar.gz
+./download-data.sh https://sparse.tamu.edu/MM/Andrianov/pattern1.tar.gz
+

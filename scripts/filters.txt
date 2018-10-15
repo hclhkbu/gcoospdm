@@ -1,0 +1,14 @@
+nemeth11		 &9506  &0.002311594		&	 Quantum Chemistry Problem\\\hline
+human_gene1		 &22283 &0.024864381    &	 Undirected Weighted Graph\\\hline
+Lederberg		 &8843  &0.000531991		&	 Directed Multigraph\\\hline
+m3plates		 &11107 &0.000053816		&	 Acoustics Problem\\\hline
+aug3dcqp		 &35543 &0.000061607		&	 2D/3D Problem\\\hline
+Trefethen_20000b &19999 &0.000718114		&	 Combinatorial Problem\\\hline
+ex37			 &3565  &0.005318263	    &	 Computational Fluid Dynamics Problem\\\hline
+g7jac020sc		 &5850 &0.001328512		&	 Economic Problem\\\hline
+LF10000			 &19998&0.000150005	    &	 Model Reduction Problem\\\hline
+epb2			 &25228&0.000275004	    &	 Thermal Problem\\\hline
+plbuckle         &1282 &0.009712666      &    Structural Problem\\\hline % ours is bad
+wang3			 &26064&0.000260797	    &	 Semiconductor Device Problem\\\hline
+fpga_dcop_01	 &1220		&0.003958613 &	 Circuit Simulation Problem\\\hline Sequence
+viscoplastic2_C_1&32769		&0.000355116&	 Materials Problem\\\hline
