@@ -147,7 +147,7 @@ double ShGCOOSpDM::mutiplyBy(float *A, int nRows, int nCols, float *C)
     cudaDeviceSynchronize();
     auto end = std::chrono::steady_clock::now();
     int timeUsed = static_cast<int>(std::chrono::duration<double, std::micro>(end - start).count());
-    printf("EO:%d\n", timeUsed);
+    //printf("EO:%d\n", timeUsed);
     
     start = std::chrono::steady_clock::now();
     dim3 grid(nGroup, (nCols+BS-1)/BS);
@@ -168,7 +168,7 @@ double ShGCOOSpDM::mutiplyBy(float *A, int nRows, int nCols, float *C)
     cudaDeviceSynchronize();
     end = std::chrono::steady_clock::now();
     timeUsed = static_cast<int>(std::chrono::duration<double, std::micro>(end - start).count());
-    printf("KC:%d\n", timeUsed);
+    //printf("KC:%d\n", timeUsed);
 
 
     cudaFree(pVals);

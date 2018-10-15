@@ -9,3 +9,9 @@ git submodule update --init --recursive
 cd src
 make
 ```
+
+## Example 
+After sucessfully compiled, one can try the following example:
+```
+./main -sparsity=0.900000 -nRowsA=800 -nRowsB=800 -nColsA=800 -nColsB=800 -algo=gcoospdm
+```
