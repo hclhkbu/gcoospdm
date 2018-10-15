@@ -37,7 +37,7 @@ void ShGCOOSpDM::convertToGroupCOOFormat(float *denseMatrix, int nRows, int nCol
     cudaMemset(pNnzPerGroup, 0, (nGroup+1) * sizeof(int));
     auto end = std::chrono::steady_clock::now();
     int timeUsed = static_cast<int>(std::chrono::duration<double, std::micro>(end - start).count());
-    printf("MC:%d\n", timeUsed);
+    //printf("MC:%d\n", timeUsed);
 
     start = std::chrono::steady_clock::now();
 
@@ -53,7 +53,7 @@ void ShGCOOSpDM::convertToGroupCOOFormat(float *denseMatrix, int nRows, int nCol
     cudaDeviceSynchronize();
     end = std::chrono::steady_clock::now();
     timeUsed = static_cast<int>(std::chrono::duration<double, std::micro>(end - start).count());
-    printf("D2S:%d\n", timeUsed);
+    //printf("D2S:%d\n", timeUsed);
 
 
     start = std::chrono::steady_clock::now();
